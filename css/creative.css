@@ -61,6 +61,10 @@ aside {
 .no-padding {
   padding: 0;
 }
+#portfolio{
+  background-color: #222;
+}
+
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -146,6 +150,24 @@ aside {
     color: #F05F40;
   }
 }
+.picture{
+  border: 5px solid #fff;
+  animation: pulse 5s infinite;
+}
+
+
+
+@keyframes pulse {
+  0% {
+   border-color: #fff;
+  }
+  50% {
+   border-color:  #eb3812;
+  }
+  100% {
+   border-color:  #fff;
+  }
+}
 header {
   position: relative;
   width: 100%;
@@ -155,7 +177,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/bg.jpg');
   text-align: center;
   color: white;
 }
